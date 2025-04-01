@@ -26,7 +26,7 @@ app.get('/products', (req, res) => {
     })
 })
 
-// ⭐️ insert product
+// ⭐️ create new product
 app.post('/products', (req, res) => {
     const { name, price, discount, review_count, image_url } = req.body
     db.query("INSERT INTO products (name, price, discount, review_count, image_url) VALUE (?, ?, ?, ?, ?)", [name, price, discount, review_count, image_url], (err, result) => {
