@@ -1,5 +1,5 @@
-# Basic RESTful api Node.js ( CRUD ที่เชื่อมต่อกับ mysql )
-เป็น **CRUD** ที่เขียนด้วย **node.js** ภาษา **JavaScript** ผ่าน framework  **express** โดย มีการเชื่อมต่อกับ **MySQL** ( relational database ) 
+# Basic RESTful api Node.js ( CRUD using MySQL )
+This is basic **CRUD** API written in **Node.js** using **JavaScript** with the  **Express** framework, which coonnects to **MySQL** ( relational database ) 
 
 ## Table of Contents
 
@@ -16,19 +16,25 @@ git clone https://github.com/ntwsam/basic-restapi-nodejs.git
 ## Requirement
 
  - **Node.js**
+ - **Visual Studio Code** or IDE program
  - **Postman** or tool for testing HTTP
  - **MySQL**
-	 - need database **product_demo** 
+	 - need database **product_demo**
+		``` bash
+		CREATE DATABASE product_demo;
+		USE product_demo;
+		```
 	 - need table **products**
-		 - `CREATE TABLE products(
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(255),
-    price DECIMAL(10, 2),
-    discount DECIMAL(5, 2),
-    review_count INT,
-    image_url VARCHAR(255)
-);
-`
+		``` bash
+		  CREATE TABLE products(
+		  id INT PRIMARY KEY AUTO_INCREMENT,
+		  name VARCHAR(255),
+		  price DECIMAL(10, 2),
+		  discount DECIMAL(5, 2),
+		  review_count INT,
+		  image_url VARCHAR(255)
+		  );
+		  ```
 	
 **table result** :
 		 
@@ -51,7 +57,7 @@ git clone https://github.com/ntwsam/basic-restapi-nodejs.git
 	 - Open **Terminal** in VSCode
 		- Click on **Terminal** ( on the top of menu bar)
 		- Choose **New Terminal** or use the shortcut`Ctrl + Shift + ~` (Windows) or `Cmd + Shift + ~` (Mac) to oepn a terminal in VSCode.
-	 - run this project
+	 - Run the project
 		- use `npm start` :
 			``` bash
 			npm start
