@@ -1,11 +1,11 @@
 # Basic RESTful api Node.js ( CRUD using MySQL )
-This is basic **CRUD** API written in **Node.js** using **JavaScript** with the  **Express** framework, which coonnects to **MySQL** ( relational database ) 
+This is basic **CRUD** API written in **Node.js** using **JavaScript** with the  **Express** framework, which connects to **MySQL** ( relational database ) 
 
 ## Table of Contents
 
  - [How to install](##How%20to%20install)
- - [How to use](##How%20to%20use)
  - [Requirement](##Requirement)
+ - [How to use](##How%20to%20use)
 
 ## How to install
 
