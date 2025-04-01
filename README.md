@@ -41,7 +41,7 @@ git clone https://github.com/ntwsam/basic-restapi-nodejs.git
 |id|name|price|discount|review_count|image_url|
 |--|------|------|-----------|-------------|-|
 | 1 | product 1 | 11.11 | 1.00 | 11 | https://example.com/image5.jpg
-| 1 | product 2 | 22.00 | 2.22 | 22 | https://example.com/image2.jpg
+| 2 | product 2 | 22.00 | 2.22 | 22 | https://example.com/image2.jpg
 
 ## How to run
 
